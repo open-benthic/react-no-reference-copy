@@ -1,8 +1,8 @@
 const headerStyles = {
-  color: 'white'
+  color: '#BBB'
 };
 const styles = {
-  backgroundColor: 'red'
+  backgroundColor: '#00BFFF'
 };
 
 const ViewLayer = props => (

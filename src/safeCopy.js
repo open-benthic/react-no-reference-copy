@@ -6,7 +6,6 @@ const noReferenceMultiply = ar => {
 export { noReferenceMultiply };
 
 // console.log(noReferenceMultiply(nums));
-
 // const bob = {
 //   _name: 'Bob',
 //   _friends: ['Sally', 'Tom'],
@@ -15,8 +14,6 @@ export { noReferenceMultiply };
 //   }
 // };
 // console.log(`Hi! bob is friend with ${bob.printFriends()}`);
-
 // const double = [1, 2, 3].map(num => num * 2);
 // const doubleCopy = [...double]; // [2,4,6]
-
 // console.log(doubleCopy);
