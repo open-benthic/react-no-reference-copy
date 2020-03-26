@@ -1,5 +1,5 @@
 {
-  "name": "react-spread-no-reference-safe-copy",
+  "name": "react-no-reference-copy",
   "version": "0.0.4",
   "description": "only a simple preset-env and preset-react config with es6-spread-no-reference-safe-copy module and hello {user} ! UI Component",
   "main": "index.js",
@@ -18,10 +18,9 @@
   },
   "scripts": {
     "build": "babel src -d dist ",
-    "gitc": " git add . && git commit -m ",
-    "patchversion": "npm version patch",
-    "newver": "npm run build && npm run gitc && npm run patchversion",
-    "pushpublish": "git push && npm publish"
+    "patch": "npm version patch",
+    "commit": "npm run build && git add . && git commit -m",
+    "pushpub": "git push && npm run patch && npm publish"
   },
   "keywords": [
     "safe-copy",
@@ -39,9 +38,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/open-benthic/react-spread-no-reference-safe-copy.git"
+    "url": "https://github.com/open-benthic/react-no-reference-copy.git"
   },
-  "issues": "https://github.com/open-benthic/react-spread-no-reference-safe-copy/issues",
+  "issues": "https://github.com/open-benthic/react-no-reference-copy/issues",
   "homepage": "https://github.com/open-benthic/",
   "license": "MIT"
 }
