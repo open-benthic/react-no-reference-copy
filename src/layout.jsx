@@ -1,5 +1,5 @@
 const headerStyles = {
-  color: '#BBB'
+  color: '#A5A5A5'
 };
 const styles = {
   backgroundColor: '#00BFFF'

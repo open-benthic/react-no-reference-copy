@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 const headerStyles = {
-  color: '#BBB'
+  color: '#A5A5A5'
 };
 const styles = {
   backgroundColor: '#00BFFF'

@@ -18,7 +18,8 @@
   },
   "scripts": {
     "build": "babel src -d dist ",
-    "newversion": "npm run build && git add -A dist && git commit -m \" $npm_config_message \" && npm version patch",
+    "commit": "git commit -m $*",
+    "newversion": "npm run build && git add . && git commit -m \"$1\" && npm version patch",
     "pushpublish": "git push && npm publish"
   },
   "keywords": [
