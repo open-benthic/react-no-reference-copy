@@ -1,6 +1,6 @@
 {
   "name": "react-no-reference-copy",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "a simple preset-env and preset-react config with es6-spread-no-reference-safe-copy module and hello {user} ! UI Component",
   "main": "dist/index.js",
   "dependencies": {},
