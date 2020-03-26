@@ -17,3 +17,4 @@ const ParentLayer = () => (
     <ViewLayer />
   </div>
 );
+export default ParentLayer;

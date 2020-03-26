@@ -3,7 +3,7 @@
     [
       "@babel/preset-env",
       {
-        "targets": "edge 16"
+        "targets": ["maintained node versions", "not dead"]
       }
     ],
     "@babel/preset-react"

@@ -1,7 +1,7 @@
 {
-  "name": "bp1",
-  "version": "1.0.0",
-  "description": "",
+  "name": "react-",
+  "version": "0.0.2",
+  "description": "only a simple preset-env and preset-react config with es6-spread-no-reference-safe-copy module and hello {user} ! UI Component",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -12,10 +12,25 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
+  "peerDependencies": {
+    "react": ">=16.1.1",
+    "react-dom": ">=16.1.1"
+  },
   "scripts": {
-    "x": "babel src -d dist "
+    "build": "babel src -d dist ",
+    "newversion": "npm run build && git add -A dist && npm version patch",
+    "pushpublish": "git push && npm publish"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "©BenthicTeam",
+    "url": "https://github.com/open-benthic/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-benthic/react-.git"
+  },
+  "issues": "https://github.com/open-benthic/react-/issues",
+  "homepage": "https://github.com/open-benthic/",
+  "license": "MIT"
 }
