@@ -1,7 +1,7 @@
 {
   "name": "react-no-reference-copy",
   "version": "0.0.4",
-  "description": "only a simple preset-env and preset-react config with es6-spread-no-reference-safe-copy module and hello {user} ! UI Component",
+  "description": "a simple preset-env and preset-react config with es6-spread-no-reference-safe-copy module and hello {user} ! UI Component",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -13,8 +13,8 @@
     "react-dom": "^16.13.1"
   },
   "peerDependencies": {
-    "react": ">=16.1.1",
-    "react-dom": ">=16.1.1"
+    "react": ">= 16.1.1",
+    "react-dom": ">= 16.1.1"
   },
   "scripts": {
     "build": "babel src -d dist ",

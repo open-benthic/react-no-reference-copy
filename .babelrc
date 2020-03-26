@@ -3,7 +3,7 @@
     [
       "@babel/preset-env",
       {
-        "targets": ["maintained node versions", "not dead"]
+        "targets": ["maintained node versions", ">2.5%", "not dead"]
       }
     ],
     "@babel/preset-react"
