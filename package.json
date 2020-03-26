@@ -1,6 +1,6 @@
 {
   "name": "react-",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "only a simple preset-env and preset-react config with es6-spread-no-reference-safe-copy module and hello {user} ! UI Component",
   "main": "index.js",
   "dependencies": {},
