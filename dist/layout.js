@@ -5,10 +5,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 const headerStyles = {
-  color: 'white'
+  color: '#BBB'
 };
 const styles = {
-  backgroundColor: 'red'
+  backgroundColor: '#00BFFF'
 };
 
 const ViewLayer = props => /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h2", {
