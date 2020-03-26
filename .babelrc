@@ -1,0 +1,11 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": "edge 16"
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}
