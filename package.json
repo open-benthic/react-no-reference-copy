@@ -2,7 +2,7 @@
   "name": "react-no-reference-copy",
   "version": "0.0.4",
   "description": "a simple preset-env and preset-react config with es6-spread-no-reference-safe-copy module and hello {user} ! UI Component",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.8.4",
