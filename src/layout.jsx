@@ -1,3 +1,5 @@
+import React from 'react';
+
 const headerStyles = {
   color: '#a7a7a7'
 };
