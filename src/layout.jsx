@@ -14,9 +14,9 @@ const ViewLayer = props => (
   </div>
 );
 
-const ParentLayer = () => (
+const ParentLayer = props => (
   <div style={styles}>
-    <ViewLayer />
+    <ViewLayer name={props.name} />
   </div>
 );
 export default ParentLayer;

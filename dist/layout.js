@@ -22,9 +22,11 @@ const ViewLayer = props => /*#__PURE__*/_react.default.createElement("div", null
   style: headerStyles
 }, props.name, " !"));
 
-const ParentLayer = () => /*#__PURE__*/_react.default.createElement("div", {
+const ParentLayer = props => /*#__PURE__*/_react.default.createElement("div", {
   style: styles
-}, /*#__PURE__*/_react.default.createElement(ViewLayer, null));
+}, /*#__PURE__*/_react.default.createElement(ViewLayer, {
+  name: props.name
+}));
 
 var _default = ParentLayer;
 exports.default = _default;
